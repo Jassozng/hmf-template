@@ -1,0 +1,25 @@
+header { 
+    display: flex;
+    color: #ffff;
+    min-height: 2rem;
+    min-height: 3rem;
+    text-align: center;
+    align-items: center; 
+    justify-content: center; /* space between in case of nav buttons */
+    min-width: -moz-available;
+    min-width: -webkit-fill-available;
+    background-color: var(--headerFooter);
+}
+
+header h1 {
+    margin-left: 1rem;
+}
+
+header a {
+    color: #ffff;
+    border-radius: 10%;
+    text-decoration: none;
+    font-family: monospace;
+    padding: 1rem 1rem 1rem 1rem;
+
+}

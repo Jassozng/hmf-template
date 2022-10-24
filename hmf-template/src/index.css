@@ -1,0 +1,18 @@
+:root {
+  /* All palete is: #171A21 #617073 #7A93AC #92BCEA #AFB3F7 || https://coolors.co/171a21-3c454a-617073-7a93ac-92bcea-a1b8f1-afb3f7  */
+  --headerFooter: #171A21;
+  --root: #7A93AC;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#root { 
+  display:flex; 
+  flex-direction:column;
+  align-items: center;
+  background-color: var(--root);
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
